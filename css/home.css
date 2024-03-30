@@ -1,12 +1,30 @@
 *{
- background-image: url(mona-eendra-vC8wj_Kphak-unsplash.jpg);
-    background-color: rgb(rgb(193, 75, 75), rgb(4, 103, 4), rgb(7, 7, 107));
+  margin: 0;
+  padding: 0;
+  
+}
+body{background-image: url(../PHOTOS/backimg.jpg);
+  background-repeat: no-repeat;background-size:cover ;
+ background-color: #01070a;
+  min-height: 100%;
+  border: solid black;
+  position: relative;
+  margin: 0;
+  min-height: 100%;
+  padding-bottom: 6.74rem;
+  box-sizing: inherit
 }
 
+html{
+  height: 100%;
+  box-sizing: border-box;
+}
 
 .middle-container{
  display: flex;
  flex-wrap: wrap;
+ padding-bottom: 6rem;
+ 
 }
 
  
@@ -58,49 +76,49 @@
   }
   
   .bottom-container {
-    position: absolute;
-    background-color: #03609d;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    padding-top: 35px;
     
+    background-color: #03609d;
+    font-size: 18px;
+    height: 90px;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
     
   } 
     
     .bottom-btn{
-      position: relative;
+      
       display: inline;
-      left: 50%;
+      margin-top: 4vh;
       border-radius: 10px;
-      background-color: rgb(41, 41, 108);
-      opacity: 60%;
+      background-color: rgb(44, 144, 238);
+      opacity: 100%;
+     
+      
       
     }
   
+   .link{
+    margin-top: 30px;
+   }
   
-  
-  /* .footer-link {
-    
+  .footer-link {
+    padding: auto;
     font-family: 'montserate', sans-serif;
-    color: #078ee8;
+    color: #eff1f3;
     text-decoration: none;
-    align-items: center;
-    position: relative;
-  } */
+   
+   
+  } 
   
   .footer-link:hover {
     color: #f1f4f6;
   }
-  /* .links {
-    display: flex;
-    justify-content: space-between;
-    justify-content: center;
-    border:solid ;
-    width: 33px;
-    background-color: none;
-    color: #e9ecee;
-  } */
+
   
   .btn{
     width: 300px;
@@ -145,6 +163,8 @@
     text-decoration: none;
   }
   
+.nav-item {
+  font-size: 1.35rem;}
   /* Use the rgba() function to specify the color and the opacity of the modal */
   .modal-content {
     background-color: rgba(255, 0, 0, 0.5);
@@ -176,7 +196,7 @@
     }
     .box2{
       position:absolute;
-      top: 90vh;
+     
       margin-left: 40%;
       margin-right: 30%;
       
