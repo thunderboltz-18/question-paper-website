@@ -1,0 +1,188 @@
+*{
+ background-image: url(mona-eendra-vC8wj_Kphak-unsplash.jpg);
+    background-color: rgb(rgb(193, 75, 75), rgb(4, 103, 4), rgb(7, 7, 107));
+}
+
+
+.middle-container{
+ display: flex;
+ flex-wrap: wrap;
+}
+
+ 
+/* .bottom-container {background-color: bisque;
+    text-align: center;
+    
+    background-color: DarkSalmon;
+    color: rgb(236, 230, 220) ;  
+        bottom: 1px;
+        width: 100%;
+        height: 60px;
+        margin-left: 0px;
+        background-color: rgb(223, 0, 223);
+       
+       
+  
+  } */
+
+  .btn1{
+    background-color: #095d86;
+  
+    width: 200px;
+    height: 30px;
+    padding-bottom: 20px;  
+  
+  }
+ 
+  
+  
+  
+  .button{
+    margin-top: 100px;
+    padding-bottom: 0px;
+    
+  }
+  
+  
+  .navbar-brand{
+    float: left;
+    text-align: left;
+    padding:0px;margin-right: 0px;
+    float: left;
+    
+  }
+  body {
+    background: hsl(220deg, 10%, 97%);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .bottom-container {
+    position: absolute;
+    background-color: #03609d;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 35px;
+    
+    
+  } 
+    
+    .bottom-btn{
+      position: relative;
+      display: inline;
+      left: 50%;
+      border-radius: 10px;
+      background-color: rgb(41, 41, 108);
+      opacity: 60%;
+      
+    }
+  
+  
+  
+  /* .footer-link {
+    
+    font-family: 'montserate', sans-serif;
+    color: #078ee8;
+    text-decoration: none;
+    align-items: center;
+    position: relative;
+  } */
+  
+  .footer-link:hover {
+    color: #f1f4f6;
+  }
+  /* .links {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    border:solid ;
+    width: 33px;
+    background-color: none;
+    color: #e9ecee;
+  } */
+  
+  .btn{
+    width: 300px;
+    height: 70px;
+    margin-left: 60px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    
+  }
+  .btn {
+    
+    background: #2a5c7d;
+    background-image: -webkit-linear-gradient(top, #b5b0b8, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 11;
+    -moz-border-radius: 11;
+    border-radius: 11px;
+    text-shadow: 4px 2px 2px #454145;
+    -webkit-box-shadow: 5px 9px 13px #545154;
+    -moz-box-shadow: 5px 9px 13px #ca2dca;
+    box-shadow: 5px 9px 13px #545154;
+    font-family: Georgia;
+    color: #ebe5e5;
+    font-size: 50px;
+    padding: 7px 32px 15px 20px;
+    border: solid #01070a 6px;
+    
+    
+  }
+  
+  .btn:hover {
+    background: #cfd5d8;
+    background-image: -webkit-linear-gradient(top, #20262a, #3498db);
+    background-image: -moz-linear-gradient(top, #33a9f2, #3498db);
+    background-image: -ms-linear-gradient(top, #33a9f2, #3498db);
+    background-image: -o-linear-gradient(top, #33a9f2, #3498db);
+    background-image: linear-gradient(to bottom, #33a9f2, #3498db);
+    text-decoration: none;
+  }
+  
+  /* Use the rgba() function to specify the color and the opacity of the modal */
+  .modal-content {
+    background-color: rgba(255, 0, 0, 0.5);
+  }
+  .modal-title {
+    color: #ede6e6;
+    margin-left: 20%;
+    margin-right: 20%;}
+    .HEAD1{
+      font-family: cursive;font-style: unset;color: #27009e;text-shadow:1px 2px rgb(112, 111, 111);
+    }
+    .box1{
+      border:dashed rgb(92, 91, 91) 2px ; margin-top: 0px;background-color:rgba(0, 0, 255, 0.2);height: 100px;
+    }
+    .back-vedio{ z-index: -1;object-fit: cover;display: flex;height: 110vh;width:100%;  align-items: center;
+      
+    }
+    
+    
+    .back-vedio::-webkit-media-controls-panel {
+      display: none !important;
+      opacity: -1 !important;
+    }
+    
+    
+    .home1{
+      position: relative;
+      display: flex;align-content: center;
+    }
+    .box2{
+      position:absolute;
+      top: 90vh;
+      margin-left: 40%;
+      margin-right: 30%;
+      
+      align-content: center;
+      
+    }
+    
+    
+    
