@@ -5,14 +5,13 @@
 }
 body{background-image: url(../PHOTOS/backimg.jpg);
   background-repeat: no-repeat;background-size:cover ;
- background-color: #01070a;
+ 
   min-height: 100%;
-  border: solid black;
   position: relative;
   margin: 0;
   min-height: 100%;
-  padding-bottom: 6.74rem;
-  box-sizing: inherit
+ 
+  box-sizing: inherit;
 }
 
 html{
@@ -23,7 +22,8 @@ html{
 .middle-container{
  display: flex;
  flex-wrap: wrap;
- padding-bottom: 6rem;
+ justify-content: center;
+
  
 }
 
@@ -43,14 +43,7 @@ html{
   
   } */
 
-  .btn1{
-    background-color: #095d86;
-  
-    width: 200px;
-    height: 30px;
-    padding-bottom: 20px;  
-  
-  }
+ 
  
   
   
@@ -59,16 +52,11 @@ html{
     margin-top: 100px;
     padding-bottom: 0px;
     
-  }
-  
-  
-  .navbar-brand{
-    float: left;
-    text-align: left;
-    padding:0px;margin-right: 0px;
-    float: left;
     
   }
+  
+  
+
   body {
     background: hsl(220deg, 10%, 97%);
     margin: 0;
@@ -86,7 +74,7 @@ html{
     left: 0;
     bottom: 0;
     right: 0;
-
+ 
     
   } 
     
@@ -97,6 +85,7 @@ html{
       border-radius: 10px;
       background-color: rgb(44, 144, 238);
       opacity: 100%;
+ 
      
       
       
@@ -123,10 +112,11 @@ html{
   .btn{
     width: 300px;
     height: 70px;
-    margin-left: 60px;
-    margin-right: 10px;
+    
     margin-bottom: 30px;
     margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
     
   }
   .btn {
