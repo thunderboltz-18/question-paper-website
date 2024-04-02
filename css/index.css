@@ -4,11 +4,14 @@
        background-image: url("https://i.pinimg.com/originals/79/a3/84/79a384c3c449ad01b0e57e790807b2c0.gif");
        background-position: center;
        background-color: black;
-       background-repeat: no-repeat;
-       min-height: 100vh; 
+       size: 20PX;
+
+       min-height: 100vh;
+       max-width: 100vh; 
        display: flex;
        flex-direction: column;
-       justify-content: space-evenly;
+       justify-content: center;
+       
 
 }
 

@@ -184,15 +184,5 @@ html{
       position: relative;
       display: flex;align-content: center;
     }
-    .box2{
-      position:absolute;
-     
-      margin-left: 40%;
-      margin-right: 30%;
-      
-      align-content: center;
-      
-    }
-    
-    
+
     
