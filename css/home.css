@@ -127,21 +127,14 @@ width: 100%;
     background-position:center; ;
     background-repeat: no-repeat;
     text-shadow:2px 4px #050505;
+     }
     
-
- 
-    
-   
-    
-    
-  }
-  
-  .button1:hover {
+.button1:hover {
 
     border: 1px solid white;
     box-shadow: 5px 9px 13px #e0dddd19;
     text-decoration: none;
-  }
+     }
   
 .nav-item {
   font-size: 1.35rem;}
@@ -149,17 +142,18 @@ width: 100%;
   .modal-content {
     background-color: rgba(255, 0, 0, 0.5);
   }
-  .modal-title {
+.modal-title {
     color: #ede6e6;
     margin-left: 20%;
-    margin-right: 20%;}
-    .HEAD1{
+    margin-right: 20%;
+     }
+ .HEAD1{
       font-family: cursive;font-style: unset;color: #27009e;text-shadow:1px 2px rgb(112, 111, 111);
     }
-    .box1{
+  .box1{
       border:dashed rgb(92, 91, 91) 2px ; margin-top: 0px;background-color:rgba(0, 0, 255, 0.2);height: 100px;
     }
-    .back-vedio{ z-index: -1;object-fit: cover;display: flex;height: 110vh;width:100%;  align-items: center;
+  .back-vedio{ z-index: -1;object-fit: cover;display: flex;height: 110vh;width:100%;  align-items: center;
       
     }
     
