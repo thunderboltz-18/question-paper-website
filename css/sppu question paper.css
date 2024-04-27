@@ -3,20 +3,33 @@
     padding: 0;
     
   }
-  body{background-image: url(../PHOTOS/backimg.jpg);
+  body{background-image: linear-gradient(to bottom, #000000, #222121);
+    height: 100vh;
     background-repeat: no-repeat;background-size:cover ;
-   
     min-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
     position: relative;
     margin: 0;
     min-height: 100%;
-   
     box-sizing: inherit;
   }
-  html{
-    height: 100%;
-    box-sizing: border-box;
-  } 
+ 
+  .tittle
+    {
+    text-align: center;
+    margin-top: 60px;
+    color: rgb(217, 222, 232);font-size: 50px;
+    border: solid ; 
+    border-color: rgb(255, 255, 255); border-radius: 10px;
+    border: right width 0; 
+    border-width: 2px;margin-left: 30px;
+    margin-right: 30px; 
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    }
+
   .link{
     margin-top: 30px;
    }
