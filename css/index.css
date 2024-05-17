@@ -1,5 +1,5 @@
 
-.hero
+/* .hero
 {  
        background-image: url("https://i.pinimg.com/originals/79/a3/84/79a384c3c449ad01b0e57e790807b2c0.gif");
        background-position: center;
@@ -13,22 +13,41 @@
        justify-content: center;
        
 
+} */
+.body{
+       background-color: rgb(21, 21, 21);
+       overflow-y: hidden;
 }
 
 
-.box2
+.login{
+       height: 100vh;
+       display: flex;
+       flex-direction: column;
+       gap: 1rem;
+       justify-content: center;
+       align-items: center;
+       color: aliceblue;
+       /*     
+       left: 50%;
+       bottom: 50%;
+       width: 200px;
+       margin-left: 50%;
+       text-decoration: color(green); */
+}  
+
+.log{
+    
+       box-shadow: 5px 5px 5px rgb(85, 85, 85);
+      
+}     
+ /* .box2
 {
      justify-content: center;
      position: fixed; 
      left: 46%;
-     bottom: 5%;
-}
-
--webkit-media-controls-panel
- {
-    display: none !important;
-    opacity: -1 !important;  
-  }
+     bottom: 30%;
+} */
 
   .startbtn {
     --glow-color: rgb(217, 176, 255);
