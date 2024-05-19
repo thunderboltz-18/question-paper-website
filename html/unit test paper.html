@@ -4,62 +4,136 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>pbl project</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="../css/unit test paper.css">
     <link rel="stylesheet" href="demo.js">
 
-    <!-- Bootstrap CSS -->
+  <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
 <!-- Bootstrap JS -->
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"></script>
 
 
-</head>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
 integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
-</body>
-<body style="background-color: rgb(191, 123, 254);background-image: url(https://images.pexels.com/photos/129731/pexels-photo-129731.jpeg) ;background-size:1500px; ">
+
+<body style=" overflow-x:hidden;overflow-y:scroll; overflow-y: auto;">
   
-  <!-- code for navbar -->
-  <nav class="navbar navbar-dark fixed-top navbar-expand-lg " style="background-color: rgb(1, 147, 147); ">
-    <div class="container ">
-      <!-- logo -->
-      <a     class="navbar-brand  " href="home.html">SPPU P.Y.Q </a>
-      
-      <!-- toggle button/ -->
-      <button class="navbar-toggler shadow-none border-0"  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-      aria-controls="offcanvasNavbar"
-      aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <!-- sidebar  -->
-    <div class="  offcanvas offcanvas-start" style=  "background-color:rgba(224, 235, 237, 0.35) ;backdrop-filter:blur(5px);max-width: 250px;"
-    tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-    <div class="offcanvas-header">
-      <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Study material</h5>
-      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+     <!-- code for navbar -->
+     <div class="top-container">
+      <nav class="navbar navbar-dark navbar-expand-lg py-3" style="background-color:rgba(12, 12, 12, 90) ; border-bottom: 1px solid rgb(51, 51, 51); ">
+        <div class="container ">
+          <!-- logo -->
+          <!-- <a     class="navbar-brand fs-1" style="color: rgb(213, 4, 4); font-family: fantasy; width: 100%;"  ; href="home.html">SPPU P.Y.Q </a>
+          -->
+          <img class="logo" src="../PHOTOS/logo.png" alt=".png" width="80px" height="80px" style="margin-left: 0px;">
+          <!-- toggle button/ -->
+           <button class="navbar-toggler shadow-none navbar-toggler  "  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+           aria-controls="offcanvasNavbar"
+           aria-label="Toggle navigation ">
+           <span class="navbar-toggler-icon  "></span>
+          </button>
+        <!-- sidebar  -->
+        <div class="  offcanvas offcanvas-start" style="  background-color:rgba(12, 12, 12, 0.5); backdrop-filter:blur(5px) ; max-width:318px"
+        tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header"style="color: aliceblue"  >
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Study material</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body"  >
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-4">
+            <li class="nav-item">
+              <a class="nav-link link-text-nowrap" aria-current="page" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-text-nowrap " aria-current="page" href="sppu question paper.html">Question papers </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-text-nowrap"  aria-current="page" href="">Study Material</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  link-text-nowrap"  href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-text-nowrap" href="uplaod.html">upload</a>
+            </li>
+          </div>
+        </div>
+      </div>
+    </nav>
     </div>
-    <div class="offcanvas-body">
-      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="home.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Question papers </a>A
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Study Material</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
-        </li>
-      
+  
           
-      
+   
+   
+   <!-- <h1 class="tittle">Decode
+  </h1>
+
+  -------------------------decode------------------------
+  <div class="middle-container">
+    <button type="button" class="button2" ; data-bs-toggle="modal" data-bs-target="#exampleModal">
+    All Subject Decode  
+    </button> 
+<!--------------------------------Decodes------------------------------
+<div class="modal-dialog modal-fullscreen">
+  <div class="modal fade " id="exampleModal" tabindex="-2" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-fullscreen   ">
+  <div class="modal-content "style="background-color: rgba(255, 255, 255, 0.5);
+">
+    <div class="modal-header" >
+      <h1 class="modal-title fs-1"id="exampleModalLabel">  Decode</h1>
+      <button type="button" class="   btn-close" data-bs-dismiss="modal" aria-label="Close">Close</button>
+    </div>
+    <div class="modal-body">
     </div>
   </div>
 </div>
-</nav>
+</div>
+</div> -->
+
+<!-- <iframe src="https://drive.google.com/embeddedfolderview?id=1HOrEeflfXrS1mGe_A-qU02uHqT9DD20L#" frameborder="0px" width=100% height="1000%"style="margin-top: 1px;"> -->
+
+
+</iframe>
+    <iframe src="https://drive.google.com/embeddedfolderview?id=15cp8_ZNS3sJmvafzWfj_YVnG6ZdOuL9_#grid "            frameborder="100%" width=100% height="1000vh"style="margin-top: 10px; margin-left: 90px;">chemistry decode
+</iframe>
+
+<div>
+      
+      <div class="middle-container">
+        <button type="button" class="button2" ; data-bs-toggle="modal" data-bs-target="#exampleModal">
+        All Subject Decode  
+        </button> 
+
+    <!--------------------------------Decodes------------------------------>
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal fade " id="exampleModal" tabindex="-2" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen   ">
+      <div class="modal-content "style="background-color: rgba(255, 255, 255, 0.5);
+    ">
+        <div class="modal-header" >
+          <h1 class="modal-title fs-1"id="exampleModalLabel">  Decode</h1>
+          <button type="button" class="   btn-close" data-bs-dismiss="modal" aria-label="Close">Close</button>
+        </div>
+        <div class="modal-body">
+          <iframe src="https://drive.google.com/embeddedfolderview?id=1HOrEeflfXrS1mGe_A-qU02uHqT9DD20L#grid " frameborder="550px" width=100% height="100%"style="margin-top: 1px;">chemistry decode</iframe>
+        </div>
+        </div>
+      </div>
+    </div>
+    </div>
+</div>
+
+ 
+     <footer class="bottom-container">
+  <div class="link"> 
+      <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+      <a class="footer-link" href="https://twitter.com/">Twitter</a>
+      <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+      <p class="footer-link"> 2023 © sumit Bagate @ thunderboltz18.</p>
+    </div>
+</footer>   
+</div> 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     
